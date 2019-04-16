@@ -1,6 +1,6 @@
 # Preact-on-Parcel
 
-[Preact](https://preactjs.com) does much of what React can do with only 3kb of ugly gzip. [Parcel](https://parceljs.org) is a zero-config bundler/builder that smells like `webpack` but tastes (and works) like **Wonka**. P-o-P them together for a very simple, lightweight front-end for your web apps.
+[Preact](https://preactjs.com) does much of what React can do with only 3kb of scrips. [Parcel](https://parceljs.org) is a zero-config bundler/builder that smells like `webpack` but tastes (and works) like **Wonka**. P-o-P them together for a very simple, lightweight front-end for your web apps.
 
 ## How to Create a Preact-on-Parcel web app
 
