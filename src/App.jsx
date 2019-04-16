@@ -13,8 +13,6 @@ export default class App extends Component {
             <a href="https://stackshare.io/preact">🛠</a>
             <a href="https://preactjs.com">Preact</a>
             <a href="https://github.com/developit/preact/">🐙</a>
-            {/* <br/> */}
-            {/* <a href="https://jasonformat.com/preact-ama-on-sideway/">Preact AMA with Jason Miller, author of Preact</a> */}
           </li>
           <li>
             <a href="https://stackshare.io/parcel">🛠</a>
