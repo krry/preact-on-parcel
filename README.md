@@ -1,7 +1,5 @@
 # Preact-on-Parcel
 
-## How to Create a Preact-on-Parcel App
-
 _Earthdate 2019.04.15.21.41.32.745._
 **Tax Day.**
 
@@ -9,7 +7,9 @@ I don't have a lot of time before the IRS knocks down the door to take me away, 
 
 React would be the jelly and/or jam, but I don't have the time, the money, or the inclination to abide the bloat. Nor can I risk being caught hand-ankled and grunting my way thru a `webpack.config.js` No, no, no. I want the paper airplane of dev frameworks. I want to sneeze and have a fully-featured web app to dev on.
 
-[Preact](https://preactjs.com) does much of what React can do with only 3kb of ugly gzip. [Parcel](https://parceljs.org) is a zero-config bundler/builder that smells like `webpack` but tastes (and works) like **Wonka**. After we get the engine running, we'll think about a turbo.
+[Preact](https://preactjs.com) does much of what React can do with only 3kb of ugly gzip. [Parcel](https://parceljs.org) is a zero-config bundler/builder that smells like `webpack` but tastes (and works) like **Wonka**. After we get the engine running, we'll think about turbochargers and rims.
+
+## How to Create a Preact-on-Parcel web app
 
 #### 1. First, draw a blank...dir.
 
@@ -109,8 +109,9 @@ body {
 yarn dev
 ```
 
+---
 
-### What dreams may come!
+## Configuring the zero-config Parcel bundler
 
 Parcel can handle all manner of assets. It sits in wait, ready to automagically install dependencies when you start using them. There are a bunch of bundles and build features that Parcel can sniff out from a runcom or config file.
 
@@ -137,20 +138,13 @@ Save that file. You may have to stop and restart parcel, you may not. The other 
 yarn add -D sass
 ```
 
-Well, that's it. Check the docs for [Parcel](https://parceljs.org/getting_started.html) and [Preact](https://preactjs.com/guide/getting-started) for more. Thanks for playing. Hope your refund was hefty af.
-
-### On AwesomeStacks.dev[↗](https://awesomestacks.dev/preact-on-parcel)
+### Proposed to AwesomeStacks.dev[↗](https://awesomestacks.dev/preact-on-parcel)
 
 A supersonic, featherweight, teflon front-end web app starter kit. Start here, go anywhere. Young tech, but zen af. *Caveat devsigner: this kit has not been battle-tested.*
 
 - [Preact](https://preactjs.com) - [🛠](https://stackshare.io/preact) - [🐙](https://github.com/developit/preact/)
 - [Parcel](https://parceljs.org) - [🛠](https://stackshare.io/parcel) - [🐙](https://github.com/parcel-bundler/parcel)
 
-### If you thought that was fun…
-
-I don't know what to tell you. Try lexicography? Or vegetable taxidermy? It
-doesn't get much more exciting.
-
-#### Resources
+#### Add'l Resources
 - [The AMA with Preact's author Jason Miller](https://jasonformat.com/preact-ama-on-sideway/).
 - [On the Atmanaut blog: Create a Preact app with Parcel](https://atmanaut.us/create-a-preact-app-with-parcel)
