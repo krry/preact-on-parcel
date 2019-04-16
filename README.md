@@ -42,13 +42,14 @@ yarn add -D parcel-bundler      # -D flag to --save-dev
 yarn add preact preact-compat   # as in compat with react
 ```
 
-#### 4. Specify a command to start this skinny thang.
+#### 4. Add a command to `package.json` to get the dev train rolling.
 
 ``` json
-/* package.json */
+{
   "scripts": {
     "dev": "parcel src/index.html --open"
-  },
+  }
+}
 ```
 
 At this point, if you're following along, you may realize you could just be cloning [the Preact Parcel starter kit repo](https://github.com/krry/preact-on-parcel) and renaming it to be your own. If instead you're the defiant DIY type, type on.
@@ -122,16 +123,15 @@ yarn dev
 
 ### What dreams may come!
 
-Parcel can handle all manner of assets. It sits in wait, ready to automagically install dependencies when you start using them. There are a bunch of bundles and build features that Parcel can sniff out from a runcom or config file. Try adding some more, like:
+Parcel can handle all manner of assets. It sits in wait, ready to automagically install dependencies when you start using them. There are a bunch of bundles and build features that Parcel can sniff out from a runcom or config file.
 
-* `.postcssrc` / `postcss.config.js`
-* `.browserslistrc`
-* `.babelrc`
+* PostCSS = `.postcssrc`
+* Browserslist = `.browserslistrc`
+* Babel = `.babelrc`
 
-The cool part about these little runcoms is how portable they are. Just copy and drop them into a new project. For instance, [let's say you want to autoprefix your css](https://parceljs.org/css.html). Just add a runcom for PostCSS about autoprefixer.
+The cool part about these little runcoms is how portable they are. Just copy and drop them into a new project. For instance, [let's say you want to autoprefix your css](https://parceljs.org/css.html). Add your autoprefixer settings to a runcom saved as `.postcssrc` or `postcss.config.js`.
 
 ``` json
-// .postcssrc
 {
   "modules": true,
   "plugins": {
