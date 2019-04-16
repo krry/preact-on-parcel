@@ -6,6 +6,11 @@ export default class App extends Component {
     return (
       <div>
         <h1>⚛︎ Preact-on-Parcel 🎁</h1>
+        <p>
+          <a href="https://github.com/krry/preact-on-parcel">Github</a>
+          <a href="https://preact-on-parcel.now.sh">Example</a>
+          <a href="https://atmanaut.us/create-a-preact-app-with-parcel">Blog Article</a>
+        </p>
         <p>A supersonic, featherweight, teflon-zen
           <br/>front-end web app starter kit.</p>
         <ul class="linky">
