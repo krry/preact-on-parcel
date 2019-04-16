@@ -9,7 +9,7 @@ export default class App extends Component {
         <p>
           <a href="https://github.com/krry/preact-on-parcel">Github</a>
           <a href="https://preact-on-parcel.now.sh">Example</a>
-          <a href="https://atmanaut.us/create-a-preact-app-with-parcel">Blog Article</a>
+          <a href="https://atmanaut.us/2019/04/create-a-preact-on-parcel-spa-in-a-jiffy/">Blog Article</a>
         </p>
         <p>A supersonic, featherweight, teflon-zen
           <br/>front-end web app starter kit.</p>

@@ -5,6 +5,7 @@
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
+    "build": "parcel build src/index.html",
     "dev": "parcel src/index.html --open",
     "start": "parcel src/index.html"
   },
@@ -20,6 +21,7 @@
   "author": "atmanaut",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
+    "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.3",
     "postcss-modules": "^1.4.1"
   },
