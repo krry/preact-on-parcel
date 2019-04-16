@@ -1,0 +1,9 @@
+body {
+  font-family: "Lato", system-ui, sans-serif;
+  background-color: #222428;
+  color: #e2e4e8;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
