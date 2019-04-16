@@ -1,16 +1,5 @@
 # Preact-on-Parcel
 
-## On AwesomeStacks.dev[↗](https://awesomestacks.dev/preact-on-parcel)
-
-A supersonic, featherweight, teflon front-end web app starter kit. Start here, go anywhere. Young tech, but zen af. *Caveat devsigner: this kit has not been battle-tested.*
-
-- [Preact](https://preactjs.com) - [🛠](https://stackshare.io/preact) - [🐙](https://github.com/developit/preact/)
-- [Parcel](https://parceljs.org) - [🛠](https://stackshare.io/parcel) - [🐙](https://github.com/parcel-bundler/parcel)
-
-#### Resources
-
-- [Create a Preact app with Parcel](https://atmanaut.us/create-a-preact-app-with-parcel)
-
 ## How to Create a Preact-on-Parcel App
 
 _Earthdate 2019.04.15.21.41.32.745._
@@ -150,11 +139,18 @@ yarn add -D sass
 
 Well, that's it. Check the docs for [Parcel](https://parceljs.org/getting_started.html) and [Preact](https://preactjs.com/guide/getting-started) for more. Thanks for playing. Hope your refund was hefty af.
 
+### On AwesomeStacks.dev[↗](https://awesomestacks.dev/preact-on-parcel)
+
+A supersonic, featherweight, teflon front-end web app starter kit. Start here, go anywhere. Young tech, but zen af. *Caveat devsigner: this kit has not been battle-tested.*
+
+- [Preact](https://preactjs.com) - [🛠](https://stackshare.io/preact) - [🐙](https://github.com/developit/preact/)
+- [Parcel](https://parceljs.org) - [🛠](https://stackshare.io/parcel) - [🐙](https://github.com/parcel-bundler/parcel)
+
 ### If you thought that was fun…
 
 I don't know what to tell you. Try lexicography? Or vegetable taxidermy? It
 doesn't get much more exciting.
 
-I enjoyed reading [the AMA that Preact's author Jason Miller did](https://jasonformat.com/preact-ama-on-sideway/).
-
-If you have any Parcel tips, please leave them here in the Comments. So much to flesh and figure out, lots of potential!
+#### Resources
+- [The AMA with Preact's author Jason Miller](https://jasonformat.com/preact-ama-on-sideway/).
+- [On the Atmanaut blog: Create a Preact app with Parcel](https://atmanaut.us/create-a-preact-app-with-parcel)
