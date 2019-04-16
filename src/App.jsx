@@ -5,7 +5,23 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>Preactionary Measures!</h1>
+        <h1>⚛︎ Preact-on-Parcel 🎁</h1>
+        <p>A supersonic, featherweight, teflon-zen
+          <br/>front-end web app starter kit.</p>
+        <ul class="linky">
+          <li>
+            <a href="https://stackshare.io/preact">🛠</a>
+            <a href="https://preactjs.com">Preact</a>
+            <a href="https://github.com/developit/preact/">🐙</a>
+            {/* <br/> */}
+            {/* <a href="https://jasonformat.com/preact-ama-on-sideway/">Preact AMA with Jason Miller, author of Preact</a> */}
+          </li>
+          <li>
+            <a href="https://stackshare.io/parcel">🛠</a>
+            <a href="https://parceljs.org">Parcel</a>
+            <a href="https://github.com/parcel-bundler/parcel">🐙</a>
+          </li>
+        </ul>
       </div>
     )
   }

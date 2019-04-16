@@ -1,5 +1,6 @@
 {
-  "name": "prearcelact",
+  "name": "preact-on-parcel",
+  "description": "a hyper-simple preact app kit on a parcel bundler",
   "version": "0.9.9",
   "license": "MIT",
   "main": "src/index.js",
@@ -7,10 +8,20 @@
     "dev": "parcel src/index.html --open",
     "start": "parcel src/index.html"
   },
-  "keywords": ["ultralight", "zeff2deff", "awesomestacks"],
+  "keywords": [
+    "ultralight",
+    "supersonic",
+    "featherweight",
+    "zeff2deff",
+    "awesomestacks",
+    "parcelicious",
+    "preactionary"
+  ],
   "author": "atmanaut",
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
+    "autoprefixer": "^9.5.1",
+    "parcel-bundler": "^1.12.3",
+    "postcss-modules": "^1.4.1"
   },
   "dependencies": {
     "preact": "^8.4.2",
